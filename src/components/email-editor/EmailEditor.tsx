@@ -6,12 +6,12 @@ export function EmailEditor() {
     <div>
       <h1>Email editor</h1>
       <div className={styles.card}>
-        <div className={styles.editor}>
+        <textarea className={styles.editor} spellCheck="false">
           Hey! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
           cupiditate iste mollitia consequuntur voluptatem vel magni eaque velit
           temporibus at quos, fugiat libero reiciendis facere nesciunt? Dicta
           quaerat molestiae ullam?
-        </div>
+        </textarea>
         <div className={styles.actions}>
           <div className={styles.tools}>
             <button>
